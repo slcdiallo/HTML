@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <head>
+        <title>Task B</title>
+        <script>
+            function myFunction(){
+                document.getElementById("demo1").innerHTML = "Paragraph written in JavaScript in Head section."
+            }
+        </script>
+    
+
+
+    </head>
+
+    <body>
+        
+        <h2>Javascript in Body of HTML</h2>
+        <p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML = "My First JavaScript in HTML section."
+        </script>
+        <hr>
+        
+        
+        <h2>JavaScript function in the head section of HTML page. </h2>
+        <p id="demo1">A simple paragrph</p>
+        <button type="button" onclick="myFunction()">Click here to call the myFunction from Head section.</button>
+       
+        <hr>
+
+        <h2> JavaScript in body section</h2>
+        <p id="demo2">A paragrah from function in body section.</p>
+        <button type="button" onclick="myFunction1()">Click here to call the myFunction1 from Body section.</button>
+        <script>
+            function myFunction1() {
+            document.getElementById("demo2").innerHTML = "Function in the body, paragraph is changed."
+            
+        }
+        </script>
+
+        <hr>
+
+        <h2> External JavaScript File</h2>
+        <p id="demo3">A paragraph from External JavaScript Exercise before the change</p>
+        <button type="button" onclick="myFunction2()"> Click Me and see the change!</button>
+
+        <p>myFunction2 is stored in an external file called "myScript.js"</p>
+
+        <script src="myScript.js"></script>
+
+        <hr>
+
+        <h2>External JavaScript file from web server</h2>
+        <p id="demo">A paragraph before the click to change</p>
+        <button type="button" onclick="myFunction()"> Click Me and see the change!</button>
+
+        <p>myFunction is stored in an external file called "myScript.js" on web server</p>
+
+        <script src=" http://www.mmlab2.rlc.dcccd.edu/imed1316n02/docs/myScript.js"></script>
+
+        <hr>
+
+        <a href="../index.html">Back to main index page</a>
+
+
+    </body>
+
+
+
+</html>

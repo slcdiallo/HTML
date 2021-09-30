@@ -1,0 +1,15 @@
+URL 
+
+http://www.mmlab2.rlc.dcccd.edu/imed1416-83840/web8502
+
+HOST
+
+sftp://www.mmlab2.rlc.dcccd.edu/imed1416-83840
+
+USERNAME
+
+web8502
+
+PASSWORD
+
+sha2Oi7a
